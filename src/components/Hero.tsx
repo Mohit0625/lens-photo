@@ -1,5 +1,6 @@
 import { motion, useScroll, useTransform } from "motion/react";
 import { useRef } from "react";
+import { Link } from "react-router-dom";
 
 export default function Hero() {
   const container = useRef<HTMLDivElement>(null);
@@ -28,9 +29,9 @@ export default function Hero() {
 
       {/* Top Navigation */}
       <nav className="relative z-20 flex justify-between items-center py-10">
-        <div className="text-xs font-bold tracking-[0.3em] uppercase">Lens & Light</div>
+        <Link to="/" className="text-xs font-bold tracking-[0.3em] uppercase hover:text-[#FF4E00] transition-colors">Lens & Light</Link>
         <div className="hidden md:flex gap-12 text-[10px] uppercase tracking-[0.2em] font-medium opacity-60">
-          <a href="#" className="hover:opacity-100 transition-opacity">Galleries</a>
+          <Link to="/galleries" className="hover:opacity-100 transition-opacity">Galleries</Link>
           <a href="#" className="hover:opacity-100 transition-opacity">Editorial</a>
           <a href="#" className="hover:opacity-100 transition-opacity">Journal</a>
           <a href="#" className="hover:opacity-100 transition-opacity underline underline-offset-8">Contact</a>

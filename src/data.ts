@@ -49,4 +49,11 @@ export const galleryImages: ImageItem[] = [
     category: "Landscape",
     aspectRatio: 0.7,
   },
+  {
+    id: "7",
+    url: "https://images.unsplash.com/photo-1542224566-6e85f2e6772f?auto=format&fit=crop&w=1200&q=80",
+    title: "Alpine Echo",
+    category: "Landscape",
+    aspectRatio: 1.1,
+  },
 ];
