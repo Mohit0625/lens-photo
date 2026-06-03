@@ -23,7 +23,7 @@ export const galleryImages: ImageItem[] = [
   },
   {
     id: "3",
-    url: "https://images.unsplash.com/photo-1506744626753-1fa44dfbb7c7?auto=format&fit=crop&w=1200&q=80",
+    url: "https://res.cloudinary.com/dt3m8h52i/image/upload/v1780488075/joseph-reeder-INVi7be11S8-unsplash_rrxvzr.jpg",
     title: "Deep Valley",
     category: "Landscape",
     aspectRatio: 1.2,
